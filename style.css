@@ -785,7 +785,10 @@ h4 {
 .tc-white {
     color:#efffdd!important;
 }
+.tc-white-white{
+    color : white!important;
 
+}
 .btn-atomic-tangerine {
     background: #F3976C!important;
     color: #000000!important;
@@ -845,7 +848,14 @@ h4 {
         padding-right: 0;
     }
 }
-
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    width: 99%;
+    height:  auto;
+}
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
