@@ -305,6 +305,8 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
+    height: 75px;
+    width: 400px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -854,7 +856,7 @@ h4 {
 .thumbnail a>img,
 .thumbnail>img {
     width: 99%;
-    height:  auto;
+    height: 80%;
 }
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
@@ -980,6 +982,8 @@ h4 {
     }
     .navbar-brand img {
         max-height: 40px;
+        height: 40px;
+        width: 215px;
         width: auto;
     }
     .nav-invert .navbar-header {
